@@ -37,6 +37,7 @@ class Logout extends React.Component {
       <React.Fragment>
         <Typography variant='subtitle2' color='inherit' className={classes.grow} noWrap>Welcome {user.name}
         </Typography>
+        <Button color='inherit' align='right' href={'/home'}>{'   '}Home</Button>
         <Button color='inherit' align='right' onClick={this.props.startLogout}>{'   '}Logout</Button>
 
       </React.Fragment>
